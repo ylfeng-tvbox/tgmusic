@@ -1,0 +1,50 @@
+{
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/mrgaoshuiquan/tvbox-config/main/jar/spider.jar",
+  "sites": [
+    {
+      "key": "MTV1",
+      "name": "🎙️易听音乐┃带歌词",
+      "type": 3,
+      "api": "csp_MusicGuard",
+      "style": {"type": "rect", "ratio": 1},
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "MTV",
+      "name": "🎶明星┃MV",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {"type": "rect", "ratio": 1.597},
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {"json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"}
+    },
+    {
+      "key": "Bili",
+      "name": "🅱哔哔合集┃弹幕",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {"type": "rect", "ratio": 1.597},
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {"json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"}
+    },
+    {
+      "key": "Biliych",
+      "name": "🅱哔哔演唱会┃弹幕",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {"type": "rect", "ratio": 1.597},
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {"json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"}
+    }
+  ],
+  "lives": []
+}
