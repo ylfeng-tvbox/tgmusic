@@ -1,6 +1,17 @@
 {
   "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/mrgaoshuiquan/tvbox-config/main/jar/spider.jar",
   "sites": [
+        {
+      "key": "Bili全部",
+      "name": "🅱哔哩音乐全集",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {"type": "rect", "ratio": 1.597},
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {"json": "https://gh-proxy.com/https://raw.githubusercontent.com/ylfeng-tvbox/tgmusic/main/bili_all.json"}
+    },
     {
       "key": "MTV1",
       "name": "🎙️易听音乐┃带歌词",
