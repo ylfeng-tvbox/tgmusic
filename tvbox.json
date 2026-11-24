@@ -1,0 +1,15 @@
+{
+  "sites": [],
+  "lives": [
+    {
+      "name": "直播ipv4",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u"
+    },
+    {
+      "name": "直播ipv6",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u"
+    }
+  ]
+}
