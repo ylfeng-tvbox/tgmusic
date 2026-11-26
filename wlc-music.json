@@ -1,0 +1,55 @@
+{
+  "spider": "https://raw.kkgithub.com/wlcmc1972/tvbox/main/jar/custom_spider.jar",
+  "sites": [
+    {
+      "key": "16万首MV",
+      "name": "🇰歌【选音轨切换原音/伴奏】",
+      "type": 3,
+      "api": "https://raw.kkgithub.com/wlcmc1972/tvbox/main/jar/live2cms.js",
+      "searchable": 2,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://raw.kkgithub.com/wlcmc1972/tvbox/main/xb/16万首MV.json"
+    },
+    {
+      "key": "酷奇MV",
+      "name": "🎤酷奇MV",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.kkgithub.com/wlcmc1972/tvbox/main/xb/kuqimv.json"
+    },
+    {
+      "key": "酷狗",
+      "name": "🐼酷狗",
+      "type": 3,
+      "api": "csp_Kugou",
+      "searchable": 0,
+      "changeable": 0,
+      "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
+    },
+    {
+      "key": "DJ呦呦",
+      "name": "🎧DJ呦呦音乐网",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.kkgithub.com/wlcmc1972/tvbox/main/XYQHiker/DJ呦呦音乐网.json"
+    },
+    {
+      "key": "有声小说吧",
+      "name": "有声小说吧",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.kkgithub.com/wlcmc1972/tvbox/main/XYQHiker/有声小说吧.json"
+    }
+  ],
+  "lives": []
+}
