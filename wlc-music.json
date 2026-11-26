@@ -1,6 +1,28 @@
+
 {
   "spider": "https://raw.kkgithub.com/wlcmc1972/tvbox/main/jar/custom_spider.jar",
   "sites": [
+    {
+      "key": "哔哩",
+      "name": "🅱️哔哩",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {"type": "rect", "ratio": 1.433},
+      "ext": {"json": "https://fm.t4tv.hz.cz/json/bili.json", "type": "帕梅拉#太极拳#广场舞#演唱会", "cookie": ""},
+      "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
+    },
+    {
+      "key": "csp_Bili",
+      "name": "🐞哔哩综合",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.kkgithub.com/wlcmc1972/tvbox/main/biliext/Bili.json"
+    },
     {
       "key": "16万首MV",
       "name": "🇰歌【选音轨切换原音/伴奏】",
