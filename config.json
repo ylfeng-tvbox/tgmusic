@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/mrgaoshuiquan/tvbox-config/main/jar/spider.jar",
+  "spider": "https://cdn.jsdelivr.net/gh/mrgaoshuiquan/tvbox-config@main/jar/spider.jar",
   "sites": [
         {
       "key": "Bili全部",
@@ -10,7 +10,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": {"json": "https://gh-proxy.com/https://raw.githubusercontent.com/ylfeng-tvbox/tgmusic/main/bili_all.json"}
+      "ext": {"json": "https://cdn.jsdelivr.net/gh/ylfeng-tvbox/tgmusic@main/bili_all.json"}
     },
     {
       "key": "MTV1",
