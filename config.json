@@ -1,7 +1,7 @@
 {
   "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/mrgaoshuiquan/tvbox-config/main/jar/spider.jar",
   "sites": [
-        {
+    {
       "key": "Bili全部",
       "name": "🅱哔哩音乐全集",
       "type": 3,
@@ -55,6 +55,33 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {"json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"}
+    },
+    {
+      "key": "da_ry_mv",
+      "name": "🎵音乐┃MV",
+      "type": 4,
+      "api": "http://120.53.102.254/dsp/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "th_mv",
+      "name": "🎶TH┃明星MV",
+      "type": 4,
+      "api": "http://120.53.102.254/dsp/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "live_t4",
+      "name": "⛳ 直播.教学T4",
+      "type": 4,
+      "api": "http://120.53.102.254/dsp16",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     }
   ],
   "lives": []
