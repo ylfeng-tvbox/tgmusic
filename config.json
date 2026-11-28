@@ -1,63 +1,23 @@
 {
   "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/mrgaoshuiquan/tvbox-config/main/jar/spider.jar",
   "sites": [
-    {
+        {
       "key": "Bili全部",
       "name": "🅱哔哩音乐全集",
       "type": 3,
       "api": "csp_BiliGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
+      "style": {"type": "rect", "ratio": 1.597},
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": {
-        "json": "https://cdn.jsdelivr.net/gh/ylfeng-tvbox/tgmusic@main/bili_all.json"},
-      },  
-      {
-  "key": "酷奇",
-  "name": "🎤酷奇┃MV",
-  "type": 3,
-  "api": "https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
-  "ext": "https://152.32.170.60/fantaiying/dr_py/raw/branch/main/js/酷奇MV.js",
-  "style": {"type": "rect", "ratio": 1.597},
-  "searchable": 0,
-  "quickSearch": 0,
-  "changeable": 0
-},
-{
-  "key": "MTV",
-  "name": "🎧明星┃MV",
-  "type": 3,
-  "api": "csp_Bili",
-  "style": {"type": "rect", "ratio": 1.597},
-  "searchable": 0,
-  "quickSearch": 0,
-  "changeable": 0,
-  "ext": "https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/MTV.json"
-},
-{
-  "key": "Biliych",
-  "name": "🅱明星┃演唱会",
-  "type": 3,
-  "api": "csp_Bili",
-  "style": {"type": "rect", "ratio": 1.597},
-  "searchable": 1,
-  "quickSearch": 0,
-  "changeable": 0,
-  "ext": "https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/biliych.json"
-},
+      "ext": {"json": "https://gh-proxy.com/https://raw.githubusercontent.com/ylfeng-tvbox/tgmusic/main/bili_all.json"}
+    },
     {
       "key": "MTV1",
       "name": "🎙️易听音乐┃带歌词",
       "type": 3,
       "api": "csp_MusicGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
+      "style": {"type": "rect", "ratio": 1},
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 0,
@@ -68,316 +28,34 @@
       "name": "🎶明星┃MV",
       "type": 3,
       "api": "csp_BiliGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
+      "style": {"type": "rect", "ratio": 1.597},
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": {
-        "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
-      }
+      "ext": {"json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"}
     },
     {
       "key": "Bili",
       "name": "🅱哔哔合集┃弹幕",
       "type": 3,
       "api": "csp_BiliGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
+      "style": {"type": "rect", "ratio": 1.597},
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": {
-        "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
-      }
+      "ext": {"json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"}
     },
     {
       "key": "Biliych",
       "name": "🅱哔哔演唱会┃弹幕",
       "type": 3,
       "api": "csp_BiliGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
+      "style": {"type": "rect", "ratio": 1.597},
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": {
-        "json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
-      }
-    },
-    {
-      "key": "da_ry_mv",
-      "name": "🎵音乐┃MV",
-      "type": 4,
-      "api": "http://120.53.102.254/dsp/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "th_mv",
-      "name": "🎶TH┃明星MV",
-      "type": 4,
-      "api": "http://120.53.102.254/dsp/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "live_t4",
-      "name": "⛳ 直播.教学T4",
-      "type": 4,
-      "api": "http://120.53.102.254/dsp16",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "Bili演唱会2",
-      "name": "🅱哔哔┃演唱会",
-      "type": 3,
-      "api": "csp_BiliGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "json": "http://xn--sss604efuw.top/x/json/biliych.json"
-      }
-    },
-    {
-      "key": "云星MTV",
-      "name": "🌈音乐MV┃云星",
-      "type": 3,
-      "api": "csp_BiliGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "json": "http://itvbox.cc/tvbox/%E4%BA%91%E6%98%9F%E6%97%A5%E8%AE%B0/sh/Bilibili/%E4%BA%91%E6%98%9FMTV.json"
-      }
-    },
-    {
-      "key": "MV_vod",
-      "name": "🎸明星┃MV接口",
-      "type": 1,
-      "api": "https://mv.wogg.link/mv/vod",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "官_爱奇艺",
-      "name": "爱奇艺(官)",
-      "type": 3,
-      "api": "http://weixine.link:33/js/lib/drpy2.min.js",
-      "ext": "http://weixine.link:33/js/aiqiyi.js"
-    },
-    {
-      "key": "官_优酷",
-      "name": "优酷(官)",
-      "type": 3,
-      "api": "http://weixine.link:33/js/lib/drpy2.min.js",
-      "ext": "http://weixine.link:33/js/youku.js"
-    },
-    {
-      "key": "官_腾讯",
-      "name": "腾讯(官)",
-      "type": 3,
-      "api": "http://weixine.link:33/js/lib/drpy2.min.js",
-      "ext": "http://weixine.link:33/js/tengxun.js"
-    },
-    {
-      "key": "官_芒果",
-      "name": "芒果(官)",
-      "type": 3,
-      "api": "http://weixine.link:33/js/lib/drpy2.min.js",
-      "ext": "http://weixine.link:33/js/mangguo.js"
-    },
-    {
-      "key": "官_搜狗",
-      "name": "搜狗(官)",
-      "type": 3,
-      "api": "http://weixine.link:33/js/lib/drpy2.min.js",
-      "ext": "http://weixine.link:33/js/caigou.js"
+      "ext": {"json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"}
     }
   ],
-  "lives": [],
-  "parses": [
-    {
-      "name": "并发",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "聚合",
-      "type": 3,
-      "url": "Web"
-    },
-    {
-      "name": "运输车",
-      "type": 1,
-      "url": "https://api.json.icu/api/?key=de6f2839e8dec7ff6d3d69aafd286253&url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.1.0"
-        }
-      }
-    },
-    {
-      "name": "彩虹",
-      "type": 1,
-      "url": "http://42.157.129.144:2323/CH/caihong_1993138546.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.1.0"
-        }
-      }
-    },
-    {
-      "name": "精选1",
-      "type": 0,
-      "url": "https://jx.777jiexi.com/player/?url="
-    },
-    {
-      "name": "精选2",
-      "type": 0,
-      "url": "https://www.yemu.xyz/?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.1.0"
-        }
-      }
-    },
-    {
-      "name": "精选3",
-      "type": 0,
-      "url": "https://jx.jsonplayer.com/player/?url="
-    },
-    {
-      "name": "精选5",
-      "type": 0,
-      "url": "https://jx.bozrc.com:4433/player/?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.1.0"
-        }
-      }
-    }
-  ],
-  "flags": [
-    "youku",
-    "qq",
-    "iqiyi",
-    "qiyi",
-    "letv",
-    "sohu",
-    "tudou",
-    "pptv",
-    "mgtv",
-    "wasu",
-    "bilibili",
-    "leshi",
-    "imgo",
-    "xigua",
-    "m1905",
-    "funshion",
-    "优酷",
-    "腾讯",
-    "爱奇艺",
-    "奇艺",
-    "乐视",
-    "搜狐",
-    "芒果",
-    "芒果TV"
-  ]
+  "lives": []
 }
