@@ -1,6 +1,19 @@
 {
   "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/mrgaoshuiquan/tvbox-config/main/jar/spider.jar",
   "sites": [
+        {"key":"ffzy","name":"非凡资源","type":1,"api":"http://cj.ffzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"lzzy","name":"量子资源","type":1,"api":"https://cj.lziapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"bfzy","name":"暴风资源","type":1,"api":"https://bfzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"tyzy","name":"天涯资源","type":1,"api":"https://tyyszyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"jszy","name":"极速资源","type":1,"api":"https://jszyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"bdzy","name":"百度资源","type":1,"api":"https://api.apibdzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"mtzy","name":"茅台资源","type":1,"api":"https://caiji.maotaizy.cc/api.php/provide/vod/","searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"低端","name":"低端影视","type":3,"api":"csp_Ddrk","playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"Auete","name":"奥特","type":3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/"},
+    {"key":"Dm84","name":"巴士动漫","type":3,"api":"csp_Dm84","playerType":"2","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://dm84.net"},
+    {"key":"Ying","name":"樱花动漫","type":3,"api":"csp_Ying","searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"演唱会","name":"演唱会MV","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://z.qiqiv.cn/666/json/演唱会.json"},
+    {"key":"哔哩大全","name":"哔哩大全","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://z.qiqiv.cn/666/json/Bili.json"},
     {"key":"厂长","name":"📔厂长┃秒播","type":3,"api":"csp_NewCzGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
     {"key":"文采","name":"💮文采┃秒播","type":3,"api":"csp_JpysGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
     {"key":"原创","name":"☀原创┃秒播","type":3,"api":"csp_YCyzGuard","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
@@ -23,6 +36,9 @@
     {"key":"高中教育","name":"📚高中┃课堂","type":3,"api":"csp_BiliGuard","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"}}
   ],
   "lives": [
+        {"name":"IPv6-fanmingming","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+    {"name":"IPv4-备用","type":0,"url":"https://cdn.jsdelivr.net/gh/MemoryCollection/IPTV@main/itvlist.txt","playerType":1,"logo":"https://live.fanmingming.com/tv/{name}.png"},
+    {"name":"咪咕","type":0,"url":"https://develop202.github.io/migu_video/interface.txt","playerType":1,"ua":"okhttp/3.8.1","timeout":20},
     {"name":"直播ipv4","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u","playerType":2},
     {"name":"直播ipv6","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u","playerType":2},
     {"name":"直播备用","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u","playerType":2}
