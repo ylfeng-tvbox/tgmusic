@@ -1,5 +1,5 @@
 {
-  "spider": "https://cdn.jsdelivr.net/gh/mrgaoshuiquan/tvbox-config@main/jar/spider.jar", ,
+  "spider": "https://ylfeng-tvbox.github.io/tgmusic/spider.jar",
   "sites": [
     {
       "key": "Bili全部",
